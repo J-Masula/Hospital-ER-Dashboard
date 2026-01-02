@@ -1,84 +1,78 @@
-# Hospital-ER-Dashboard
-A PBI dashboard that analyzes ER patient flow, wait times, referrals, and demographics to support operational insights and decision-making.
+📌 Overview
 
-## Dashboards Overview
+This project analyzes Emergency Room (ER) operations using Power BI to uncover patterns in patient flow, wait times, referrals, and demographics.
+The dashboard is designed to support data-driven decision-making aimed at improving operational efficiency and patient experience.
 
-### **Dashboard 1: Monthly View**
-**Objective:**  
-Monitor ER performance on a **month-by-month basis** to identify trends, peak periods, and areas requiring improvement.
-**Key Visuals:**
-- Patient Admission Status (Admitted vs. Non-Admitted)
-- Patient Age Distribution (10-year age intervals)
-- Department Referrals
-- Timeliness (% of patients seen within 30 minutes)
-- Gender Distribution
-- Racial Demographics
-- Patient Volume by Day and Hour
 
----
-### **Dashboard 2: Consolidated View**
-**Objective:**  
-Provide a **holistic summary of hospital performance** across a **selected date range**.
+🎯 Business Questions Addressed
 
-**Key Features:**
-- Aggregated metrics from the Monthly View
-- Date range slicers for flexible analysis
-- Trend analysis over longer time periods
+- Are patients being attended to within acceptable wait times?
+- Which departments receive the highest ER referrals?
+- When do peak patient volumes occur (day/hour)?
+- How do demographics impact ER utilization?
+- Where are the operational bottlenecks affecting patient satisfaction?
 
----
-### **Dashboard 3: Patient Details**
-**Objective:**  
-Enable **granular, patient-level analysis** for detailed investigation and operational troubleshooting.
+📊 Dashboard Structure
+1. Monthly Performance View
 
-**Fields Included:**
-- Patient ID  
-- Patient Full Name  
-- Gender  
-- Age  
-- Admission Date  
-- Patient Race  
-- Wait Time  
-- Department Referral  
-- Admission Status  
+Purpose: Track ER trends on a month-by-month basis.
 
-This dashboard supports detailed review and validation of individual patient records.
+Key Insights:
+Admission vs. non-admission patterns
+Patient volume by day and hour
+Department referral distribution
+Percentage of patients seen within 30 minutes
+Demographic breakdown by age, gender, and race
 
----
+2. Consolidated Performance View
 
-### **Dashboard 4: Key Takeaways**
-**Objective:**  
-Summarize insights from all dashboards and translate them into **clear, actionable recommendations** for stakeholders.
+Purpose: Provide a holistic summary across a selected date range.
 
-**Focus Areas:**
-- Key patterns and trends
-- Operational bottlenecks
-- Anomalies in wait times and patient volume
-- Data-driven recommendations to optimize ER operations and patient care
+Highlights:
+Aggregated KPIs for trend comparison
+Flexible date filtering for broader analysis
+Identification of sustained performance issues over time
 
----
+3. Patient-Level Details
 
-## 📈 Key Performance Indicators (KPIs)
+Purpose: Enable granular analysis and validation at the individual patient level.
 
-### **Number of Patients**
-- Measures total ER visits per day
-- Displayed using an **area sparkline** to highlight daily trends and peak periods
+Fields Included:
+Patient ID and Name
+Age, Gender, Race
+Admission Date and Status
+Wait Time
+Department Referral
 
-### **Average Wait Time**
-- Calculates the average time patients wait before being attended
-- Visualized with an **area sparkline** to identify days with higher operational pressure
 
-### **Patient Satisfaction Score**
-- Tracks daily average patient satisfaction
-- Helps correlate service quality with wait times and patient volume
+📈 Key Metrics & KPIs
 
-### **Number of Patients Referred**
-- Counts daily referrals to specific hospital departments
-- Highlights departments with consistently high demand
+Total ER Visits
+Daily patient count with trend analysis to identify peak periods
 
----
-## 🛠 Tools & Technologies
-- **Power BI Desktop**
-- **DAX** for KPIs and measures
-- **Data Modeling** using fact and dimension tables
-- Interactive slicers and drill-through functionality
+Average Wait Time
+Tracks service efficiency and highlights operational strain
 
+Patient Satisfaction Score
+Monitors service quality and correlates with wait times and volume
+
+Department Referrals
+Identifies departments with consistently high ER demand
+
+All KPIs are supported by trend visuals to highlight patterns and anomalies over time.
+
+🛠 Tools & Skills Applied
+
+Power BI Desktop
+DAX (CALCULATE, FILTER, SUMMARIZE, time-based analysis)
+Data Modeling (fact & dimension tables)
+Interactive dashboards with slicers and drill-downs
+Business-focused KPI design
+
+📂 Repository Contents
+
+Hospital_ER_Dashboard.pbix – Power BI report
+
+screenshots/ – Dashboard previews
+
+README.md – Project documentation
